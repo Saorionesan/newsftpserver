@@ -1,0 +1,14 @@
+*.class
+bin
+lib
+.metadata
+hostkey.*
+target
+.settings
+.idea
+*.iml
+# Package Files #
+*.jar
+*.war
+*.ear
+src/main/resources/*.properties
