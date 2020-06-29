@@ -218,4 +218,4 @@ vrrp_instance VI_1 {
 [root@localhost ~]# mount -t nfs -o vers=4.0  192.168.189.158:/var/DockerVolumes/data /var/DockerVolumes/data
 ```
 
-注意：配置完成后需要通过主节点的22222端口上传文件，除非主节点挂掉在通过从节点的22222端口上传文件。
+注意：配置完成后需要通过主节点的22222端口上传文件，除非主节点宕机在通过从节点的22222端口上传文件。
